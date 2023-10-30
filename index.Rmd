@@ -1,7 +1,21 @@
 ---
-title: "Homepage!"
+title: "Stephanie Calluori"
 ---
 
-### I have a webpage!
+<center>
 
-And I can put all kinds of stuff on it!
+<img src="images/headshot.jpg" style="width:75%">
+
+</center>
+
+
+[Photo courtesty of Zach Calluori]
+
+<center>
+
+### About Me
+
+
+Short Biosketch
+
+To learn more
