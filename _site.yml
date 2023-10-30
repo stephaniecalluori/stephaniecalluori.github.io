@@ -1,0 +1,13 @@
+name: "Personal Github Website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Professional Experience"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<sdc2157@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/<stephaniecalluori>/
+output:
+  html_document
