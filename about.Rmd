@@ -30,7 +30,8 @@ output:
 ##### *Non-Student Short-Term Casual (Research Assistant) in the lab of Dr. Ami Zota*
 
 * Investigated role of environmental factors and genetic mutations in uterine fibroids.
-* Characterized patterns of genetic mutations in MED12 gene in uterine fibroids.
+
+* Characterized genetic mutations in MED12 gene in uterine fibroids.
 
 <br>
 
@@ -38,6 +39,7 @@ output:
 ##### *Undergraduate Researcher in the lab of Dr. Brandon Pearson*
 
 * Investigated effects of extreme temperatures on aging and neurological disease.
+
 * Examined role of environmental factors in repeat expansion diseases.
 
 <br>
