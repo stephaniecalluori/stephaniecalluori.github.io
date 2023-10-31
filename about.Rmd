@@ -2,8 +2,40 @@
 title: "CV"
 ---
 
-# About this site
+<br>
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+### Education
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+#### **Barnard College, Columbia University | New York, NY | May 2021**
+
+##### B.A. Cell & Molecular Biology with Minor in Science, Policy, & Ethics
+
+##### Summa Cum Laude, Department Honors, Phi Beta Kappa (Fall 2020) 
+
+##### Thesis: "Developmental Lead Exposure: Effects on Neural Developmental Processes and Cognitive Outcomes"
+
+<br>
+
+### Research Experience
+
+#### **Columbia University Mailman School of Public Health | New York, NY | July - Aug 2023**
+##### *Non-Student Short-Term Casual (Research Assistant) in the lab of Dr. Ami Zota*
+
+#### **Columbia University Mailman School of Public Health | New York, NY | May 2019 - May 2021**
+##### *Undergraduate Researcher in the lab of Dr. Brandon Pearson*
+
+#### **Institute for Cancer Genetics, Columbia University | New York, NY | May 2018 - Aug 2018**
+##### *Undergraduate Researcher in the lab of Dr. Swarnali Acharyya*
+
+<br>
+
+### Work Experience
+
+#### **National Human Genome Research Institute, NIH | Bethesda, MD | June 2021 - June 2023**
+##### *Scientific Program Analyst in the Division of Genome Sciences, Extramural Research Program (Contracted via Axle Informatics; previously contracted via Ingenesis)*
+
+
+
+
+
+
