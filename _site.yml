@@ -17,8 +17,6 @@ navbar:
       href: http://github.com/stephaniecalluori/
     - icon: fa-linkedin fa-lg
       href: http://www.linkedin.com/in/stephanie-calluori-77b83b1b6
-
-    
 output:
   html_document:
     theme: cosmo
