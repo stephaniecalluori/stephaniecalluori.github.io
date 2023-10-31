@@ -31,7 +31,7 @@ output:
 
 * Investigated role of environmental factors and genetic mutations in uterine fibroids.
 
-* Characterized genetic mutations in MED12 gene in uterine fibroids.
+* Characterized mutations in *MED12* gene in uterine fibroids.
 
 <br>
 
