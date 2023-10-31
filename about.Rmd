@@ -29,15 +29,23 @@ output:
 #### **Columbia University Mailman School of Public Health | New York, NY | July - Aug 2023**
 ##### *Non-Student Short-Term Casual (Research Assistant) in the lab of Dr. Ami Zota*
 
+* Investigated role of environmental factors and genetic mutations in uterine fibroids.
+* Characterized patterns of genetic mutations in MED12 gene in uterine fibroids.
+
 <br>
 
 #### **Columbia University Mailman School of Public Health | New York, NY | May 2019 - May 2021**
 ##### *Undergraduate Researcher in the lab of Dr. Brandon Pearson*
 
+* Investigated effects of extreme temperatures on aging and neurological disease.
+* Examined role of environmental factors in repeat expansion diseases.
+
 <br>
 
 #### **Institute for Cancer Genetics, Columbia University | New York, NY | May 2018 - Aug 2018**
 ##### *Undergraduate Researcher in the lab of Dr. Swarnali Acharyya*
+
+* Investigated role of metal-ion transporter ZIP14 in cancer and non-cancer induced cachexia.
 
 <br>
 
@@ -46,6 +54,9 @@ output:
 #### **National Human Genome Research Institute, NIH | Bethesda, MD | June 2021 - June 2023**
 ##### *Scientific Program Analyst in the Division of Genome Sciences, Extramural Research Program (Contracted via Axle Informatics; previously contracted via Ingenesis)*
 
+* Served on NHGRI scientific management teams for IGVF (Impact of Genomic Variation on Function) Consortium and ENCODE (Encyclopedia of DNA Elements) Consortium, large consortia focusing on genome annotation and functional genomics.
+
+* Served on NHGRI scientific management team for PhenX (Phenotypes and eXposures) Toolkit, a trans-NIH supported resource of standard protocols for epidemiological research.
 
 
 
