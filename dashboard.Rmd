@@ -76,7 +76,7 @@ instacart_df |>
   unique() |> 
   count(order_hour_of_day, day_of_week) |> 
   mutate(day_of_week = forcats::fct_relevel(day_of_week, c("Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"))) |> 
-  plot_ly(x = ~order_hour_of_day, y = ~n, color = ~day_of_week, type = 'scatter', mode = 'lines') |> 
+  plot_ly(x = ~order_hour_of_day, y = ~n, color = ~day_of_week, type = 'scatter', mode = 'lines', colors = "viridis") |> 
   layout(xaxis = list(title = 'Hour of Day'), 
          yaxis = list(title = 'Number of Orders'),
          title = 'Total # Instacart Orders by Day and Time')
