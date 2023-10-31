@@ -63,7 +63,7 @@ instacart_df |>
   plot_ly(x = ~day_of_week, y = ~n, type = 'scatter', mode = 'markers') |> 
   layout(xaxis = list(title = 'Day of Week'), 
          yaxis = list(title = 'Number of Items Ordered from Baking Ingredients Aisle'),
-         title = 'Total # of Items Ordered from Baking Ingredients Aisle by Week Day')
+         title = 'Total # Items Ordered from Baking Ingredients Aisle by Day')
   
 
 ```
@@ -79,7 +79,7 @@ instacart_df |>
   plot_ly(x = ~order_hour_of_day, y = ~n, color = ~day_of_week, type = 'scatter', mode = 'lines') |> 
   layout(xaxis = list(title = 'Hour of Day'), 
          yaxis = list(title = 'Number of Orders'),
-         title = 'Total # of Instacart Orders by Day and Time')
+         title = 'Total # Instacart Orders by Day and Time')
 
 ```
 
