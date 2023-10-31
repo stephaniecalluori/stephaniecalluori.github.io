@@ -11,5 +11,12 @@ navbar:
       href: mailto:<sdc2157@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/stephaniecalluori/
+    - icon: fa-linkedin fa-lg
+      href: http://www.linkedin.com/in/stephanie-calluori-77b83b1b6
+
+    
 output:
-  html_document
+  html_document:
+    theme: sandstone
+  
+  

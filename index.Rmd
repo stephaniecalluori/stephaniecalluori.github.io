@@ -6,16 +6,22 @@ title: "Stephanie Calluori"
 
 <img src="images/headshot.jpg" style="width:75%">
 
-</center>
-
-
 [Photo courtesty of Zach Calluori]
 
-<center>
+</center>
 
-### About Me
+# About Me
 
+#### Stephanie Calluori (she/her) is a first-year PhD student in the Environmental Health Sciences Department at the Columbia University Mailman School of Public Health. Her research explores gene-environment interactions through an interdisclipinary lens, combining both her expertise in molecular biology and toxicology with epidemiological approaches. Specifically, Stephanie aims to measure environmental effects on molecular markers to elucidate mechanisms linking environmental exposures to health outcomes in women, children, and minoritized populations. The ultimate goal of her research is to identify effective interventions, inform equitable public health policies and practicies, and guide targeted mechanistic studies. 
 
-Short Biosketch
+#### Stephanie completed her B.A. at Barnard College of Columbia University. Previously, Stephanie conducted environmental health research at Columbia University Mailman School of Public Health and cancer research at Columbia University Irving Cancer Institute. Additionally, Stephanie worked as a Scientific Program Analyst at the National Human Genome Research Institute (NHGRI) at the NIH.
 
-To learn more
+# Research Interests
+
+#### gene-environment interactions, women's health, children's health, health equity, DOHaD, gynecological health, neurodevelopment, epigenetics, omics
+
+# Learn More
+
+#### To learn more about Stephanie's academic and professional experience, see [Experience](about.html) page.
+
+#### See [Dashboard](dashboard.html) page and [GitHub](http://github.com/stephaniecalluori/) for examples of Stephanie's data science projects using R.
