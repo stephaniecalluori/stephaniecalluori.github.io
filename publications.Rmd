@@ -1,8 +1,8 @@
 ---
-title: "CV"
+title: "Publications"
 ---
 
-# About this site
+### About this site
 
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
 

@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Experience"
       href: about.html
+    - text: "Publications"
+      href: publications.html
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
