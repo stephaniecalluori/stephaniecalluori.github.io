@@ -8,29 +8,78 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("instacart")
+
+instacart_df = 
+  instacart |> 
+  as_tibble() |>
+  janitor::clean_names() |> 
+  rename(day_of_week = order_dow) |> 
+  mutate(day_of_week = 
+           case_match(day_of_week,
+                      0 ~ "Sun",
+                      1 ~ "Mon",
+                      2 ~ "Tues",
+                      3 ~ "Wed",
+                      4 ~ "Thurs",
+                      5 ~ "Fri",
+                      6 ~ "Sat",
+                      ))
+
+
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Bananas Were the Most Popular Item Ordered By Instacart Customers
 
 ```{r}
+instacart_df |> 
+  count(product_name) |> 
+  filter(n>3800) |> 
+  mutate(product_name = fct_reorder(product_name, desc(n))) |> 
+  plot_ly(x = ~product_name, y = ~n, type = "bar", color = ~product_name, colors = "viridis") |> 
+  layout(xaxis = list(title = 'Product Name'), 
+         yaxis = list(title = 'Number of Times Ordered'),
+         title = '20 Most Popular Items Ordered by Instacart Customers')
 
+  
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
-
-```{r}
+### Sunday was the Most Popular Day to Order from the Baking Ingredient Aisle
+```{r, echo = FALSE}
+instacart_df |> 
+  filter(aisle == "baking ingredients") |> 
+  count(day_of_week) |> 
+  mutate(day_of_week = forcats::fct_relevel(day_of_week, c("Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"))) |> 
+  plot_ly(x = ~day_of_week, y = ~n, type = 'scatter', mode = 'markers') |> 
+  layout(xaxis = list(title = 'Day of Week'), 
+         yaxis = list(title = 'Number of Items Ordered from Baking Ingredients Aisle'),
+         title = 'Total # of Items Ordered from Baking Ingredients Aisle by Week Day')
+  
 
 ```
 
-### Chart C
+### Late Sunday Afternoon Was the Peak Time for Ordering Instacart
 
-```{r}
+```{r, echo = FALSE}
+instacart_df |> 
+  select(order_id, order_hour_of_day, day_of_week) |> 
+  unique() |> 
+  count(order_hour_of_day, day_of_week) |> 
+  mutate(day_of_week = forcats::fct_relevel(day_of_week, c("Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"))) |> 
+  plot_ly(x = ~order_hour_of_day, y = ~n, color = ~day_of_week, type = 'scatter', mode = 'lines') |> 
+  layout(xaxis = list(title = 'Hour of Day'), 
+         yaxis = list(title = 'Number of Orders'),
+         title = 'Total # of Instacart Orders by Day and Time')
 
 ```
 
