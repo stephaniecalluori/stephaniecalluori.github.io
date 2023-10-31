@@ -2,8 +2,9 @@
 title: "Publications"
 ---
 
-### About this site
+#### **Calluori, S.**, Stark, R., & Pearson, B. L. (2023). Gene-Environment Interactions in Repeat Expansion Diseases: Mechanisms of Environmentally Induced Repeat Instability. Biomedicines, 11(2), 515. [https://doi.org/10.3390/biomedicines11020515](https://doi.org/10.3390/biomedicines11020515)
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+#### Shakri, A. R., Zhong, T. J., Ma, W., Coker, C., Kim, S., **Calluori, S.**, …Acharyya, S. (2020). Upregulation of ZIP14 and Altered Zinc Homeostasis in Muscles in Pancreatic Cancer Cachexia. Cancers, 12(1), 3. [https://doi.org/10.3390/cancers12010003](https://doi.org/10.3390/cancers12010003)
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+#### More publications coming soon!
+
